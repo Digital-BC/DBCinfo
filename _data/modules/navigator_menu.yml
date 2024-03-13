@@ -1,0 +1,201 @@
+# ------------------------------------------------------------------------------
+# ~/_data/modules/j1_navigator_menu.yml (run-time)
+# Configuration of the J1 NAV Module for the main navigation bar
+#
+# Product/Info:
+# https://jekyll.one
+#
+# Copyright (C) 2023 Juergen Adams
+#
+# J1 Theme is licensed under the MIT License.
+# See: https://github.com/jekyll-one-org/j1-template/blob/main/LICENSE.md
+#
+# ------------------------------------------------------------------------------
+# NOTE:
+#   For general navigation settings, see navigator.yml
+# ------------------------------------------------------------------------------
+
+
+
+# ------------------------------------------------------------------------------
+# Menu LEARN
+#
+- item:                                 About
+  sublevel:
+
+    - title:                            Vision
+      href:                             /about/vision
+      #icon:                             paw
+
+# --------------------------------------------------------------------------
+    # Roundtrip
+    #
+    - title:                            History
+      href:                             /about/history
+      #icon:                             briefcase-search-outline
+  
+    # Roundtrip
+    #
+    - title:                            Contact
+      href:                             /about/contact
+      #icon:                             briefcase-search-outline
+  
+
+
+
+      
+
+# ------------------------------------------------------------------------------
+# Menu BLOG
+#
+- item:                                 News & Events
+  sublevel:
+    - title:                            News
+      href:                             /news_events/news
+     # icon:                             near-me
+    - title:                            Events
+      href:                             /news_events/events
+      #icon:                             briefcase-search-outline
+  
+
+# ------------------------------------------------------------------------------
+# Menu MANUALS
+#
+#- item:                                 Manuals
+#  sublevel:
+
+    # --------------------------------------------------------------------------
+    # Modules
+    #
+ #   - title:                            Modules
+ #     icon:                             alpha-j-box
+ #     dropdown:
+
+  #      - title:                        Master Header
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/attic/
+  #        icon:                         window-shutter
+  #      - title:                        Carousel
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/carousel/
+  #        icon:                         view-carousel
+  #      - title:                        Cookie Consent
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/cookie_consent/
+#         href:                         '#'
+  #        icon:                         cookie
+  #      - title:                        Galleries
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/gallery/
+  #        icon:                         view-dashboard-variant
+  #      - title:                        Lightbox
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/lightbox/
+  #        icon:                         flashlight
+  #      - title:                        Logger
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/logger/
+  #        icon:                         math-log
+  #      - title:                        Master Slider
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/masterslider/
+  #        icon:                         gesture-swipe
+  #      - title:                        Mobile Menu
+  #        href:                         https://jekyll.one/pages/public/manuals/mmenu/
+  #        icon:                         menu
+  #      - title:                        MSDropdown
+  #        href:                         https://jekyll.one/pages/public/manuals/msdropdown/
+  #        icon:                         form-dropdown
+  #      - title:                        Navigator
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/navigator/
+#         href:                         '#'
+  #        icon:                         near-me
+  #      - title:                        Range Slider
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/rangeslider/
+  #        icon:                         distribute-vertical-center
+  #      - title:                        Code Hightlighter Rouge
+  #        href:                         https://jekyll.one/pages/public/manuals/rouge/user_guide/
+  #        icon:                         format-color-fill
+  #      - title:                        Themer
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/themer/
+#         href:                         '#'
+  #        icon:                         theme-light-dark
+  #      - title:                        Toccer
+  #        href:                         https://jekyll.one/pages/public/manuals/modules/toccer/
+#         href:                         '#'
+  #        icon:                         wrap
+
+    # --------------------------------------------------------------------------
+    # J1 Components
+    #
+ #   - title:                            Components
+ #     icon:                             alpha-j-box
+ #     dropdown:
+
+ #       - title:                        Resources
+#         href:                         https://jekyll.one/pages/public/manuals/j1/resources/
+ #         href:                         '#'
+ #         icon:                         garage
+ #       - title:                        Layouts
+#         href:                         https://jekyll.one/pages/public/manuals/j1/layouts/
+#         href:                         '#'
+ #         href:                         https://jekyllrb.com/docs/layouts/
+ #         icon:                         page-layout-body
+ #         target:                       _blank
+
+  #      - title:                        Blocks
+  #        icon:                         page-layout-header-footer
+  #        dropdown:
+
+   #         - title:                    Banner And Panel
+   #           href:                     https://jekyll.one/pages/public/manuals/j1/blocks/banner_panel/
+   #           icon:                     order-bool-descending
+   #         - title:                    Footer
+   #           href:                     https://jekyll.one/pages/public/manuals/j1/blocks/footer/
+   #           icon:                     order-bool-ascending
+
+   #     - title:                        Content
+   #       icon:                         file
+   #       dropdown:
+
+    
+    #        - title:                    Pages
+    #          href:                     https://jekyll.one/pages/public/manuals/j1/content/pages/
+    #          icon:                     file-document
+    #        - title:                    Posts
+    #          href:                     https://jekyll.one/pages/public/manuals/j1/content/posts/
+    #          icon:                     file-delimited
+
+#           - title:                    Collections
+#             href:                     https://jekyll.one/pages/public/manuals/j1/content/collections/
+#             icon:                     file-percent
+
+
+# ------------------------------------------------------------------------------
+# Menu TOOLS
+
+# ------------------------------------------------------------------------------
+# Menu ONLINE
+#
+
+# ------------------------------------------------------------------------------
+# Menu PARTNERS
+#
+- item:                                 Partners & Contributors
+  sublevel:
+    - title:                            Partners
+      href:                             /partners_contributors/partners
+    - title:                            Contributors
+      href:                             /partners_contributors/contributors
+
+
+
+# ------------------------------------------------------------------------------
+# Menu TECHNOLOGY
+#
+- item:                                 Technology
+  sublevel:
+    - title:                            Platform
+     # icon:                             home-variant-outline
+      href:                              /technology/platform
+    - title:                            Metadata
+      #icon:                             bug
+      href:                             /technology/metadata
+
+ 
+
+# ------------------------------------------------------------------------------
+# END config
