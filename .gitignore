@@ -40,6 +40,8 @@ tmp/
 
 **/*_backup
 
+**/.DS_Store
+
 
 # Never publish your sensitive personal and/or OAuth
 # data to any repo - not to public, not to any private.
