@@ -1,3 +1,15 @@
+DigitalBC (Info) Website. 
+
+A work in progress. 
+
+Main branch - a single page with brief description of projects and contact
+'TBD' branch - multiple pages, to build incrementally and merge at a later date (pending)
+
+
+
+
+<!--->
+
 # All you need for your new amazing site
 
 Jekyll meets Bootstrap - and makes a lot of friends. J1 Theme combines
