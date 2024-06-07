@@ -7,8 +7,7 @@ A work in progress.
 - 'TBD' branch - multiple pages, to build incrementally and merge at a later date (pending) (flush out skeleton pages and unhide nav links)
 
 - ... ?
-
-
+This is a reworking of the [j1-template-starter](https://github.com/jekyll-one/j1-template-starter)
 
 <!--
 
