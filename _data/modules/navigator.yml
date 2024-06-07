@@ -211,7 +211,7 @@ settings:
   # NavQuicklinks
   #
   nav_quicklinks:
-    enabled:                            true
+    enabled:                            false 
 
     home_url:                           /                                       # none | URL
     back_url:                           none                                    # none | URL
@@ -226,7 +226,7 @@ settings:
   # NavTopsearch
   #
   nav_topsearch:
-    enabled:                            true
+    enabled:                            false
 
 # ------------------------------------------------------------------------------
 # END config
