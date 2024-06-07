@@ -1,9 +1,10 @@
-DigitalBC (Info) Website. 
+#DigitalBC (Info) Website. 
 
 A work in progress. 
 
-Main branch - a single page with brief description of projects and contact
-'TBD' branch - multiple pages, to build incrementally and merge at a later date (pending)
+- Main branch - a single page with brief description of projects and contact
+
+- 'TBD' branch - multiple pages, to build incrementally and merge at a later date (pending)
 
 
 
