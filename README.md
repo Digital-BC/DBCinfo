@@ -8,7 +8,7 @@ Main branch - a single page with brief description of projects and contact
 
 
 
-<!--->
+<!--
 
 # All you need for your new amazing site
 
@@ -588,3 +588,5 @@ Start your work from the scratch by running the `setup` task again:
     j1 setup
 
 Happy Jekylling!
+
+--> 
