@@ -47,7 +47,7 @@
 #   values:                             development|production
 #   default:                            development
 #
-environment:                            development
+environment:                            production
 
 # version
 # ------------------------------------------------------------------------------
@@ -242,8 +242,8 @@ author:
   twitter:                              username
 # feedburner:                           feedname
 
-webmaster:
-  email:                                webmaster@jekyll.one
+#webmaster:
+#  email:                                webmaster@jekyll.one
 
 # Crawling/Indexing ENABLED for default. Settings managed page-wise using
 # frontmatter defaults or by page default settings to make sure that only
