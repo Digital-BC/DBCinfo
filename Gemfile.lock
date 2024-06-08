@@ -22,8 +22,12 @@ GEM
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (4.27.0-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.0-x86_64-linux)
       bigdecimal
       rake (>= 13)
     hashie (5.0.0)
@@ -99,6 +103,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.14.1-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.14.1-x86_64-linux)
+      racc (~> 1.4)
     nokogiri-pretty (0.1.0)
       nokogiri
     oauth2 (2.0.9)
@@ -138,8 +144,9 @@ GEM
     rouge (4.2.1)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.77.4-x86_64-darwin)
+    sass-embedded (1.77.4)
       google-protobuf (>= 3.25, < 5.0)
+      rake (>= 13)
     sassc (2.4.0)
       ffi (~> 1.9)
     sinatra (2.2.4)
@@ -172,6 +179,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   asciidoctor (~> 2.0)
