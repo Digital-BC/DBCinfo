@@ -94,7 +94,8 @@ gem 'rouge', '~> 4.0'
 # XML|HTML processing
 #
 gem 'builder', '~> 3.2'
-gem 'nokogiri', '>= 1.10.3'
+#gem 'nokogiri', '>= 1.10.3'
+gem "nokogiri", ">= 1.16.5"
 gem 'nokogiri-pretty', '>= 0.1.0'
 gem 'htmlbeautifier', '>= 1.2.1'
 
