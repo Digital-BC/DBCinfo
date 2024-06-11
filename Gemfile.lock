@@ -126,7 +126,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.0)
-    rack (2.2.6.2)
+    rack (2.2.9)
     rack-protection (2.2.4)
       rack
     rack-ssl-enforcer (0.2.9)
@@ -199,7 +199,7 @@ DEPENDENCIES
   omniauth (~> 1.9)
   omniauth-oauth2 (~> 1.7)
   puma (>= 6.4.2)
-  rack (~> 2.2, >= 2.2.3)
+  rack (>= 2.2.8.1)
   rack-protection (~> 2.0)
   rack-ssl-enforcer (~> 0.2)
   rest-client (~> 2.0)
