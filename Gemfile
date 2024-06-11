@@ -271,6 +271,9 @@ gem 'warden', '~> 1.2'
 # gem 'omniauth', '~> 2.0'
 # ------------------------------------------------------------------------------
 gem 'omniauth', '~> 1.9'
+#gem "omniauth", ">= 2.0.0" note - this is for future versions, we add csrf protection below instead
+#, via https://github.com/omniauth/omniauth/wiki/Resolving-CVE-2015-9284  - No /auth/:provider mods needed as we are not using them
+gem 'omniauth-rails_csrf_protection'
 gem 'omniauth-oauth2', '~> 1.7'
 
 # ------------------------------------------------------------------------------
