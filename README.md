@@ -4,7 +4,7 @@ A work in progress.
 
 - Main branch - a single page with brief description of the project and contact
 
-- 'TBD' other branches - multiple pages, to build incrementally and merge at a later date (pending) (flush out skeleton pages and unhide nav links, etc . . . )
+- 'multipage' branch to build incrementally and merge at some later date (flush out skeleton pages, etc . . . )
 
 - ... ?
 
