@@ -1,0 +1,20 @@
+name: Prevent Multipage Merge
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check_branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if the source branch is 'multipage'
+        if: github.head_ref == 'multipage'
+        run: |
+          echo "Merging from 'multipage' to 'main' is not allowed."
+          exit 1
+      - name: Allow merge
+        if: github.head_ref != 'multipage'
+        run: echo "Merge allowed."
